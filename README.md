@@ -5,13 +5,13 @@ Node-benchmark implements the ```timethis, timethese, countit``` functions some 
 ##Install
 
 ```
-  npm install node-benchmark
+  npm install timethis
 ```
 
 ##Usage
 
 ```javascript
-var bench = require("./node-benchmark");
+var bench = require("timethis");
 
 bench.timethis(100,function(time){
   console.log("Tested @ " + time + bench.accuracy);
