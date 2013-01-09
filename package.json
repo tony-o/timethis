@@ -1,12 +1,15 @@
 {
-   "name":"node-benchmark"
-   ,"version":"v0.1.0-1"
-   ,"homepage":"http://segomos.com/"
-   ,"main":"node-benchmark"
-   ,"repository":{
-      "type":"git"
-      ,"url":"git@github.com:tony-o/node-benchmark.git"
-   }
-   ,"description":"Function iteration benchmarking, implements functions similar to perl's timethis, timethese, and countit."
-   ,"keywords":["counter","timer","timethis","timethese","countit","benchmark","function","iterations","order","callback"]
+  "name":"timethis"
+  ,"version":"v0.1.0-1"
+  ,"homepage":"http://segomos.com/"
+  ,"main":"node-benchmark"
+  ,"repository":{
+    "type":"git"
+    ,"url":"git@github.com:tony-o/timethis.git"
+  }
+  ,"optionalDependencies":{
+    "microtime":"*"
+  }
+  ,"description":"Function iteration benchmarking, implements functions similar to perl's timethis, timethese, and countit."
+  ,"keywords":["counter","timer","timethis","timethese","countit","benchmark","function","iterations","order","callback"]
 }
